@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+body {
+  background: #ffffff;
+}
+header {
+  padding: 10px 60px;
+  background: #ffffff;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.navigation .logo {
+  width: 35px;
+}
+.navigation ul {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  gap: 50px;
+}
+.navigation ul li a {
+  color: #000000;
+  font-weight: 300;
+  padding-bottom: 1px;
+  transition: all 0.5s ease-in-out;
+}
+.navigation ul li a:hover {
+  color: #a9a9af;
+  border-bottom: 1px solid #ffffff;
+}
+
+/*Main*/
+
+main section {
+  display: flex;
+  align-items: center;
+  padding: 2rem 30rem;
+}
+
+p {
+  font-size: 15px;
+  padding-top: 0.5rem;
+}
+
+.link {
+  color: rgb(64, 155, 240);
+  font-size: 15px;
+}
+
+h2 {
+  margin-top: 2rem;
+}
+
+.main-text img {
+  width: 15rem;
+  margin-bottom: 3vh;
+}
+
+.main-text h3 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  margin-top: 10rem;
+}
+.main-text p {
+  margin-bottom: 1.5rem;
+}
+
+.main-text h5 {
+  color: #000000;
+  font-size: 16px;
+  margin-bottom: 1rem;
+}
+.main-text h6 {
+  color: #757373;
+  font-size: 12px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.main-text .btn {
+  padding: 10px 50px;
+  background: #0071e3;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 1.2rem;
+  transition: all 0.5s;
+}
+.main-text .btn:hover {
+  opacity: 0.85;
+}
+.main-text .text h5 {
+  font-size: 1rem;
+  color: #444;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.main-text .content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.main-text .content span {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 1px 1px #888;
+  transition: all 0.5s;
+}
+.main-text .content span:hover {
+  opacity: 0.8;
+}
+#cinza {
+  background: #3f3f3f;
+}
+#rosa {
+  background: #e9116b;
+}
+#verde {
+  background: #23daa3;
+}
+#prateado {
+  background: #9fa0a1;
+}
+#azul {
+  background: #0d538dcb;
+}
+
+.main-img {
+  padding-right: 20%;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Airpods Max - Cinza-espacial - Apple (BR) </title>
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <a href="#"><img src="img/logo.png" alt="Logo" class="logo"></a>
+            <ul>
+                <li><a href="#">Loja</a></li>
+                <li><a href="#">Mac</a></li>
+                <li><a href="#">iPad</a></li>
+                <li><a href="#">iPhone</a></li>
+                <li><a href="#">Watch</a></li>
+                <li><a href="#">Airpods</a></li>
+                <li><a href="#">TV e Casa</a></li>
+                <li><a href="#">Entretenimento</a></li>
+                <li><a href="#">Acessórios</a></li>
+                <li><a href="#">Suporte</a></li>
+            </ul>
+            
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <section>
+            <div class="main-img">
+                <img src="img/black.png" alt="Imagem" id="phone">
+                <hr>
+              <p> Precisa de ajuda para comprar? <a class="link"href="#">Converse agora pelo chat</a> ou ligue para 0800-761-0867</p>
+
+            </div>
+            <div class="main-text">
+            
+                <h3> Comprar Airpods Max</h2>
+                <div class="text">
+                    <h5>Cor</h5>
+                 </div>
+                <div class="content">
+                    <span id="cinza" onclick="imgSlider('img/black.png'); circleChange('#445c42')"></span>
+                    <span id="rosa" onclick="imgSlider('img/pink.png'); circleChange('#ffc9cf')"></span>
+                    <span id="verde" onclick="imgSlider('img/green.png'); circleChange('#0b839e')"></span>
+                    <span id="prateado" onclick="imgSlider('img/white.png'); circleChange('#092732')"></span>
+                    <span id="azul" onclick="imgSlider('img/blue.png');circleChange('#e0dbd7')"></span>
+                    
+                </div>
+                <h2>Som de Alta Fidelidade</h3>
+                <p>Apresentamos os AirPods Max. A combinação perfeita entre som de altíssima fidelidade e a magia intuitiva dos AirPods. Você nunca ouviu nada assim.</p>
+                <h5>R$ 6.590,00 </h5> 
+                <p> <a class="link"href="#"> Em até 12x de R$ 549,17</a> <br> R$ 5.931,00 à vista (10% de desconto)</p>
+                <hr>
+                <h6> Envio em:<br> 1 - 2 Semanas <br> Frete grátis </h6>
+                <a href="#" class="btn">Colocar na sacola</a>
+            </div>
+        </section>
+
+    </main>
+
+    <script type="text/javascript">
+        function imgSlider(e){
+            document.querySelector('#phone').src = e;
+        }
+        function circleChange(color){
+            const circle = document.querySelector('.circle');
+            circle.style.background = color;
+        }
+    </script>
+</body>
+</html>
