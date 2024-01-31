@@ -1,4 +1,10 @@
 import React from "react";
+import blackImage from "../assets/black.png";
+import blueImage from "../assets/blue.png";
+import greenImage from "../assets/green.png";
+import pinkImage from "../assets/pink.png";
+import whiteImage from "../assets/white.png";
+import logoImage from "../assets/logo.png";
 
 const MainSection = () => {
   const imgSlider = (image) => {
@@ -16,7 +22,7 @@ const MainSection = () => {
     <main>
       <section>
         <div className="main-img">
-          <img src="assets/black.png" alt="Imagem" id="phone" />
+          <img src={blackImage} alt="Imagem" id="phone" />
           <hr />
           <p>
             Precisa de ajuda para comprar?{" "}
@@ -35,35 +41,35 @@ const MainSection = () => {
             <span
               id="cinza"
               onClick={() => {
-                imgSlider("assets/black.png");
+                imgSlider(blackImage);
                 circleChange("#445c42");
               }}
             ></span>
             <span
               id="rosa"
               onClick={() => {
-                imgSlider("assets/pink.png");
+                imgSlider(pinkImage);
                 circleChange("#ffc9cf");
               }}
             ></span>
             <span
               id="verde"
               onClick={() => {
-                imgSlider("assets/green.png");
+                imgSlider(greenImage);
                 circleChange("#0b839e");
               }}
             ></span>
             <span
               id="prateado"
               onClick={() => {
-                imgSlider("assets/white.png");
+                imgSlider(whiteImage);
                 circleChange("#092732");
               }}
             ></span>
             <span
               id="azul"
               onClick={() => {
-                imgSlider("img/blue.png");
+                imgSlider(blueImage);
                 circleChange("#e0dbd7");
               }}
             ></span>

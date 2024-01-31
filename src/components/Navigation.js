@@ -1,10 +1,11 @@
 import React from "react";
+import logoImage from "../assets/logo.png";
 
 const Navigation = () => {
   return (
     <nav className="navigation">
       <a href="#">
-        <img src="img/logo.png" alt="Logo" className="logo" />
+        <img src={logoImage} alt="Logo" className="logo" />
       </a>
       <ul>
         <li>
