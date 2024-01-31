@@ -4,7 +4,6 @@ import blueImage from "../assets/blue.png";
 import greenImage from "../assets/green.png";
 import pinkImage from "../assets/pink.png";
 import whiteImage from "../assets/white.png";
-import logoImage from "../assets/logo.png";
 
 const MainSection = () => {
   const imgSlider = (image) => {
@@ -24,7 +23,7 @@ const MainSection = () => {
         <div className="main-img">
           <img src={blackImage} alt="Imagem" id="phone" />
           <hr />
-          <p>
+          <p className="help-text">
             Precisa de ajuda para comprar?{" "}
             <a className="link" href="#">
               Converse agora pelo chat

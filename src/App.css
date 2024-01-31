@@ -78,7 +78,7 @@ h2 {
   margin-top: 10rem;
   color: rgb(0, 0, 0);
 }
-.main-text p {
+.main-text p a {
   color: black;
   margin-bottom: 1.5rem;
 }
@@ -94,6 +94,11 @@ h2 {
   font-size: 12px;
   margin-top: 1rem;
   margin-bottom: 2rem;
+}
+p {
+  color: black;
+  font-size: 16px;
+  padding: 10px;
 }
 
 .main-text .btn {
