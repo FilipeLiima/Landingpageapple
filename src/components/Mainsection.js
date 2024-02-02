@@ -4,6 +4,8 @@ import blueImage from "../assets/blue.png";
 import greenImage from "../assets/green.png";
 import pinkImage from "../assets/pink.png";
 import whiteImage from "../assets/white.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTruckFast } from "@fortawesome/free-solid-svg-icons";
 
 const MainSection = () => {
   const imgSlider = (image) => {
@@ -87,9 +89,13 @@ const MainSection = () => {
             <br /> R$ 5.931,00 à vista (10% de desconto)
           </p>
           <hr />
-          <h6>
-            Envio em:
-            <br /> 1 - 2 Semanas <br /> Frete grátis
+          <h6 className="shipping-info">
+            <FontAwesomeIcon icon={faTruckFast} className="custom-icon" />
+            <span>
+              Envio em:
+              <br /> 1 - 2 Semanas <br />
+              Frete grátis
+            </span>
           </h6>
           <a href="#" className="btn">
             Colocar na sacola

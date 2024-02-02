@@ -154,3 +154,12 @@ p {
 .main-img {
   padding-right: 20%;
 }
+.custom-icon {
+  font-size: 24px;
+  color: grey;
+  margin-right: 8px;
+}
+.shipping-info {
+  display: flex;
+  align-items: center;
+}
