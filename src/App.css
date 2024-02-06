@@ -22,23 +22,24 @@ header {
   justify-content: space-evenly;
 }
 .navigation .logo {
-  width: 35px;
+  width: 20px;
 }
 .navigation ul {
   display: flex;
   align-items: center;
   padding: 10px;
-  font-size: 18px;
+  font-size: 16px;
   gap: 50px;
 }
 .navigation ul li a {
-  color: #000000;
+  color: rgb(0, 0, 0);
   font-weight: 300;
   padding-bottom: 1px;
   transition: all 0.5s ease-in-out;
+  text-decoration: none;
 }
 .navigation ul li a:hover {
-  color: #a9a9af;
+  color: #949292;
   border-bottom: 1px solid #ffffff;
 }
 
@@ -56,15 +57,19 @@ p {
   color: white;
 }
 
+h2 {
+  padding: 10px;
+}
+
+.price {
+  padding: 10px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
 .link {
   color: rgb(64, 155, 240);
   font-size: 15px;
-}
-
-h2 {
-  margin-top: 2rem;
-  color: #000000;
-  padding: 10px;
 }
 
 .main-text img {
@@ -74,6 +79,7 @@ h2 {
 
 .main-text h3 {
   font-size: 2.5rem;
+  font-weight: 700;
   margin-bottom: 2rem;
   margin-top: 10rem;
   color: rgb(0, 0, 0);
@@ -125,6 +131,7 @@ p {
   gap: 10px;
 }
 .main-text .content span {
+  padding: 20px;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -136,19 +143,19 @@ p {
   opacity: 0.8;
 }
 #cinza {
-  background: #3f3f3f;
+  background: #000000;
 }
 #rosa {
-  background: #e9116b;
+  background: #ff0000;
 }
 #verde {
-  background: #23daa3;
+  background: #cceccc;
 }
 #prateado {
-  background: #9fa0a1;
+  background: #dbdbdb;
 }
 #azul {
-  background: #0d538dcb;
+  background: #033761cb;
 }
 
 .main-img {
