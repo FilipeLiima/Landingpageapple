@@ -16,5 +16,4 @@ O projeto Landing Page da Apple é uma recriação da página de venda do site o
 - **HTML5 e CSS3:** Para a estruturação e estilização da página.
 - **Git e GitHub:** Para o controle de versão e hospedagem do código-fonte.
   
-- Prévia: 
-![image](https://github.com/FilipeLiima/Landingpageapple/assets/131200594/d8fdc3b7-cb9f-470c-9161-a9c1fcbf7042)
+
